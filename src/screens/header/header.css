@@ -1,0 +1,94 @@
+.header-wrapper {
+	background: #282c34;
+	margin-bottom: 30px;
+	position: relative
+}
+.navbar {
+	color: #fff;
+	font-size: 12px;
+	padding: 15px 15px 10px;
+	height: 20px
+}
+.header {
+	background: #282c34;
+	color: #fff;
+	left: 0;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 1000
+}
+.header-bg-yellow {
+	background: #282c34s;
+	height: 58px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 30;
+	bottom: -14px
+}
+.header-bg-yellow-light-1, .header-bg-yellow-light-2 {
+	background: rgba(0, 0, 0, 0.54);
+	height: 78px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 20;
+	bottom: -14px
+}
+h1 {
+    font-size: 30px !important;
+    font-weight: 300 !important;
+    line-height: 36px !important;
+    margin: 2px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    margin: 10px !important;
+    opacity: 0.9 !important;
+}
+.header-yellow{
+	position: relative;
+	z-index: 999;
+	background: #282c34;
+	}
+
+@media (min-width:320px) {
+.header-bg-yellow {
+	-webkit-transform: skewY(-4deg);
+	transform: skewY(-4deg)
+}
+.header-bg-yellow-light-1 {
+	-webkit-transform: skewY(4deg);
+	transform: skewY(4deg)
+}
+}
+@media (min-width:641px) {
+.header-bg-yellow {
+	-webkit-transform: skewY(-2deg);
+	transform: skewY(-2deg)
+}
+.header-bg-yellow-light-1 {
+	-webkit-transform: skewY(2deg);
+	transform: skewY(2deg)
+}
+}
+@media (min-width:1281px) {
+.header-bg-yellow {
+	-webkit-transform: skewY(-1deg);
+	transform: skewY(-1deg)
+}
+.header-bg-yellow-light-1 {
+	-webkit-transform: skewY(1deg);
+	transform: skewY(1deg)
+}
+
+img{
+	padding-left: 0px !important;
+	padding-top: 20px
+}
+}
