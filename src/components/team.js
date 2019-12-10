@@ -6,7 +6,7 @@ class Team extends Component {
     return (
       <div className="contact-body">
         <Grid className="contact-grid">
-          <div className="box">
+          {/* <div className="box"> */}
           <Cell col={4}>
             <h2>Avani Chaskar</h2>
             <img className="logo1"
@@ -24,7 +24,7 @@ class Team extends Component {
             <a href="https://in.linkedin.com/in/avani-chaskar" class="generic-anchor" target="_blank" title="Portfolio" itemprop="significantLink"><i class="fa fa-dribbble"></i></a>
             </div>
           </Cell>
-          </div>
+          {/* </div> */}
 
           {/* <Cell col={4}>
             <h2>Harshit jain</h2>
