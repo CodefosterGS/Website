@@ -14,7 +14,6 @@ const Main = () => (
     <Route path="/events" component={Events} />
     <Route path="/team" component={Team} />
     <Route path="/blogs" component={Blogs} />
-    {/* <Route path="/resume" component={Resume} /> */}
     {/* <Route path="/wrong" component={Wrong} /> */}
   </Switch>
 );
