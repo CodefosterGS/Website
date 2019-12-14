@@ -1,22 +1,21 @@
-.footer{
-    height: 250px;
-    background-color: grey;
-    background-size: cover;
+.footer {
+  height: 250px;
+  background-color: grey;
+  background-size: cover;
 }
 
-.row{
-    background-color: grey;
+.row {
+  background-color: grey;
 }
 
-.col1{
-    margin-top: -120px;
-    margin-left: 50%;
+.col1 {
+  margin-top: -120px;
+  margin-left: 50%;
 }
-.col2{
-    margin-top: -170px;
-    margin-left: 75%;
+.col2 {
+  margin-top: -170px;
+  margin-left: 75%;
 }
-.icons{
-    margin-left:5%;
+.icons {
+  margin-left: 5%;
 }
-

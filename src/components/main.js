@@ -5,8 +5,6 @@ import LandingPage from "./landingpage";
 import Events from "./events";
 import Team from "./team";
 import Blogs from "./blogs";
-// import Resume from "./resume";
-// import Wrong from './wrong.js'
 
 const Main = () => (
   <Switch>
@@ -14,8 +12,6 @@ const Main = () => (
     <Route path="/events" component={Events} />
     <Route path="/team" component={Team} />
     <Route path="/blogs" component={Blogs} />
-    {/* <Route path="/resume" component={Resume} /> */}
-    {/* <Route path="/wrong" component={Wrong} /> */}
   </Switch>
 );
 
