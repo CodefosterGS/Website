@@ -13,6 +13,7 @@ import {
   IconButton
 } from "react-mdl";
 
+import Footer from './footer'
 class Blogs extends Component {
   constructor(props) {
     super(props);
@@ -116,10 +117,10 @@ class Blogs extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>CP</Tab>
-          <Tab>Frontend</Tab>
-          <Tab>Backend</Tab>
-          <Tab>Academics</Tab>
+          <Tab>Problem Solving</Tab>
+          <Tab>UI/UX</Tab>
+          <Tab>AI/ML</Tab>
+          <Tab>Explore...</Tab>
         </Tabs>
 
         <Grid>
@@ -127,6 +128,7 @@ class Blogs extends Component {
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
         </Grid>
+        <Footer />
       </div>
     );
   }

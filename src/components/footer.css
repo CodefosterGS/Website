@@ -1,11 +1,7 @@
 .footer {
   height: 250px;
-  background-color: grey;
+  background-color: rgb(48, 22, 139);
   background-size: cover;
-}
-
-.row {
-  background-color: grey;
 }
 
 .col1 {

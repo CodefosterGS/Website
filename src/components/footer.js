@@ -5,13 +5,17 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import "./footer.css";
 
+const CurrentYear = () => {
+  return document.write(new Date().getFullYear());
+};
+
 const FooterPage = () => {
   return (
     <div className="footer">
       <div className="row">
-        <h3 style={{ paddingTop: "20px", marginLeft: "5%" }}>Connect</h3>
+        <h3 style={{ paddingTop: "20px", marginLeft: "5%" }}>Connect Us:</h3>
         <div className="icons">
-          <GitHubIcon style={{ fontSize: auto }} />
+          <GitHubIcon style={{ fontSize: 60 }} />
           <FacebookIcon style={{ fontSize: 60 }} />
           <TwitterIcon style={{ fontSize: 60 }} />
           <InstagramIcon style={{ fontSize: 60 }} />
@@ -52,10 +56,14 @@ const FooterPage = () => {
           </ul>
         </div>
         <div
-          style={{ textAlign: "center", fontSize: "10px", marginTop: "30px" }}
+          style={{
+            textAlign: "center",
+            fontSize: "10px"
+          }}
         >
           {" "}
-          ©2019 Codefoster
+          Copyright &copy; All rights reserved <br /> Developed by{" "}
+          <strong>Codefoster Web Team</strong>
         </div>
       </div>
     </div>
