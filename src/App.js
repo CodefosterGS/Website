@@ -8,33 +8,31 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
-        <Layout >
-          <Header 
+        <Layout>
+          <Header
             className="header-color"
             title={
-              <Link  style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link style={{ textDecoration: "none", color: "white" }} to="/">
                 Codefoster
               </Link>
             }
             scroll
           >
-            <Navigation >
-              {/* <Link to="/resume">Resume</Link> */}
+            <Navigation>
               <Link to="/">Home</Link>
               <Link to="/events">Events</Link>
               <Link to="/blogs">Blogs</Link>
               <Link to="/team">Our Team</Link>
             </Navigation>
           </Header>
-          <Drawer 
+          <Drawer
             title={
               <Link style={{ textDecoration: "none", color: "black" }} to="/">
                 Codefoster
               </Link>
             }
           >
-            <Navigation >
-              {/* <Link to="/resume">Resume</Link> */}
+            <Navigation>
               <Link to="/">Home</Link>
               <Link to="/events">Events</Link>
               <Link to="/blogs">Blogs</Link>

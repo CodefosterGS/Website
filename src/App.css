@@ -1,45 +1,29 @@
 .header-color {
-  background-image: url("https://lesilets.com/wp-content/uploads/2018/04/1096907-cool-dark-background-2560x1600-for-tablet-1024x640.jpg");
-  
+  background: rgb(177, 11, 11);
 }
 
 .landing-grid {
-  background-image: url("https://lesilets.com/wp-content/uploads/2018/04/1096907-cool-dark-background-2560x1600-for-tablet-1024x640.jpg");
-  text-align: center;
-  width: 100%;
-  height: 900px;
-  overflow: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.about {
-  /* background: #833ab4;  fallback for old browsers */
-  /* background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: white;
+
   text-align: center;
   width: 100%;
   height: 1500;
   overflow: auto;
 }
+.about {
+  text-align: center;
+  width: 100%;
 
-.projects-grid {
+  overflow: hidden;
+}
+
+.flex-container {
   display: flex;
-  padding-top: 60px;
 }
-
-/* Resume Page css */
-.resume-right-col {
-  background: #27221f;
-  color: white;
-  padding: 2em;
-}
-
-/* contact page css */
 
 .contact-body {
   margin: auto;
-  position: fixed;
+  position: relative;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -50,7 +34,7 @@
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: 400px;
   background: white;
   color: black;
   margin-bottom: 20px;
@@ -75,10 +59,10 @@
   font-size: 66px;
   padding-right: 5rem;
 }
-
-.avatar-img {
+.our-logo {
   height: 250px;
-  padding-top: 5em;
+  border-radius: 1em;
+  margin-top: 25;
 }
 
 body {
@@ -87,37 +71,31 @@ body {
 }
 
 .banner-text {
-  background-color: black;
+  background-color: blue;
+  opacity: 0.8;
   width: 75%;
   margin: auto;
-  border-radius: 100px;
-}
-@media screen and (min-width: 601px) {
-  .banner-text h1 {
-    font-size: 77px;
-    color: white;
-  }
-  .banner-text p {
-    color: white;
-    font-size: 20px;
-    padding: 1em;
-  }
+  border-radius: 10px;
+  margin-top: 50px;
 }
 
-@media screen and (max-width: 600px) {
-  .banner-text h1 {
-    font-size: 45px;
-    color: white;
-    text-align: center;
-  }
-  .banner-text p {
-    color: white;
-    font-size: 15px;
-    padding: 1em;
-  }
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: black;
 }
 
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
 
+.banner-text p {
+  color: black;
+  font-size: 20px;
+  padding: 1em;
+}
 
 .social-links {
   display: flex;
@@ -127,18 +105,7 @@ body {
 }
 
 .social-links i {
-  color: white;
+  color: rgb(153, 91, 91);
   font-size: 4em;
   padding: 20px;
-}
-
-
-.carousel{
-  margin-right: 30%;
-  margin-left: 30%;
-  height: 450px;
-}
-.vl {
-  border-left: 2px solid grey;
-  height: 75%;
 }
