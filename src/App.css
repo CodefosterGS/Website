@@ -59,7 +59,6 @@
   font-size: 66px;
   padding-right: 5rem;
 }
-
 .our-logo {
   height: 250px;
   border-radius: 1em;
@@ -68,6 +67,7 @@
 
 body {
   -webkit-overflow-scrolling: touch;
+
 }
 
 .banner-text {
