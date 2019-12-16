@@ -1,8 +1,7 @@
 import React, {Component} from "react";
 import Card from './card';
-import Footer from './footer';
 
-const team = [
+const team=[
     {
         name: "Avani Chaskar",
         description: "A data science enthusiast and a leisurely competitive coder, who often motivates and mentors newbies.",
@@ -17,13 +16,11 @@ const team = [
 class Team extends Component {
     render() {
         return (
-            <div>
+            <div className="margin">
                 <div>
-                    <Card member={team[0]}/>
+                    <Card  member={team[0]}/>
                 </div>
-                <div>
-                    <Footer/>
-                </div>
+               
             </div>
         );
 

@@ -8,9 +8,9 @@ import React, {Component} from "react";
 class Timeline extends Component {
     render() {
         return (
-            <VerticalTimeline>
+            <VerticalTimeline >
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element--work one"
                     contentStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
                     contentArrowStyle={{borderRight: "7px solid  rgb(33, 150, 243)"}}
                     date="2011 - present"
@@ -24,7 +24,7 @@ class Timeline extends Component {
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element--work one"
                     date="2010 - 2011"
                     iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
                 >
@@ -38,7 +38,7 @@ class Timeline extends Component {
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element--work one"
                     date="2008 - 2010"
                     iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
                 >
@@ -49,7 +49,7 @@ class Timeline extends Component {
                     <p>User Experience, Visual Design</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element--work one"
                     date="2006 - 2008"
                     iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
                 >
@@ -60,7 +60,7 @@ class Timeline extends Component {
                     <p>User Experience, Visual Design</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
+                    className="vertical-timeline-element--education two"
                     date="April 2013"
                     iconStyle={{background: "rgb(233, 30, 99)", color: "#fff"}}
                 >
@@ -71,7 +71,7 @@ class Timeline extends Component {
                     <p>Strategy, Social Media</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
+                    className="vertical-timeline-element--education two"
                     date="November 2012"
                     iconStyle={{background: "rgb(233, 30, 99)", color: "#fff"}}
                 >
@@ -82,7 +82,7 @@ class Timeline extends Component {
                     <p>Creative Direction, User Experience, Visual Design</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
+                    className="vertical-timeline-element--education two"
                     date="2002 - 2006"
                     iconStyle={{background: "rgb(233, 30, 99)", color: "#fff"}}
                 >

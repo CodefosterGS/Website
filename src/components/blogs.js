@@ -12,8 +12,8 @@ import {
   CardMenu,
   IconButton
 } from "react-mdl";
+import './static/blogs.css';
 
-import Footer from './footer'
 class Blogs extends Component {
   constructor(props) {
     super(props);
@@ -23,8 +23,7 @@ class Blogs extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="flex-container">
-          {/* Project 1 */}
+        <div className="flex-container margin">
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{ color: "#fff", height: "176px", background: "#" }}
@@ -45,7 +44,6 @@ class Blogs extends Component {
             </CardMenu>
           </Card>
 
-          {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{ color: "#fff", height: "176px", background: "#" }}
@@ -66,7 +64,6 @@ class Blogs extends Component {
             </CardMenu>
           </Card>
 
-          {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{ color: "#fff", height: "176px", background: "#" }}
@@ -128,7 +125,7 @@ class Blogs extends Component {
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
         </Grid>
-        <Footer />
+        
       </div>
     );
   }
