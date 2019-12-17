@@ -1,73 +1,47 @@
-import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import "./static/footer.css";
+import React, { Component } from "react";
 
-const CurrentYear = () => {
-    return document.write(new Date().getFullYear());
-};
+import { Container, Row } from "reactstrap";
 
-const FooterPage = () => {
-    return (
-        <div className="footer">
-            <div className="row">
-                <h3 style={{paddingTop: "20px", marginLeft: "5%"}}>Connect Us:</h3>
-                <div className="icons">
-                    <GitHubIcon style={{fontSize: 60}}/>
-                    <FacebookIcon style={{fontSize: 60}}/>
-                    <TwitterIcon style={{fontSize: 60}}/>
-                    <InstagramIcon style={{fontSize: 60}}/>
-                </div>
 
-                <div className="col1">
-                    <h4>Recent Activities</h4>
-                    <ul>
-                        <li>
-                            <a>Link1</a>
-                        </li>
-                        <li>
-                            <a>Link2</a>
-                        </li>
-                        <li>
-                            <a>Link3</a>
-                        </li>
-                        <li>
-                            <a>Link4</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="col2">
-                    <h4>About us</h4>
-                    <ul>
-                        <li>
-                            <a>Link1</a>
-                        </li>
-                        <li>
-                            <a>Link2</a>
-                        </li>
-                        <li>
-                            <a>Link3</a>
-                        </li>
-                        <li>
-                            <a>Link4</a>
-                        </li>
-                    </ul>
-                </div>
-                <div
-                    style={{
-                        textAlign: "center",
-                        fontSize: "10px"
-                    }}
-                >
-                    {" "}
-                    Copyright &copy; All rights reserved <br/> Developed by{" "}
-                    <strong>Codefoster Web Team</strong>
-                </div>
-            </div>
-        </div>
-    );
-};
 
-export default FooterPage;
+class Footer extends Component {
+    render() {
+        return (
+
+            <footer className="footer-black">
+                <Container>
+                    <Row className="foot">
+                            <div className="social">
+                                <h4>Connect Us:</h4>
+                                <GitHubIcon />
+                                &nbsp;
+                                <FacebookIcon />
+                                &nbsp;
+                                <TwitterIcon />
+                                &nbsp;
+                                <InstagramIcon />
+                            </div>
+                            <div className="social1">
+                                <h4>Contact:</h4>
+                                <p>codefostergs@gmail.com</p>
+                            </div>
+                        <div className="credits">
+                            <span className="copyright">
+                                © {new Date().getFullYear()}
+                                , made by Codefoster Web Team
+                </span>
+                        </div>
+                    </Row>
+                </Container>
+            </footer>
+
+        );
+    }
+}
+
+export default Footer;

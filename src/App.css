@@ -1,109 +1,29 @@
-.header-color {
+.header-color{
     background: rgb(177, 11, 11);
+    background-image: url("https://lesilets.com/wp-content/uploads/2018/04/1096907-cool-dark-background-2560x1600-for-tablet-1024x640.jpg");
+    position: fixed;
 }
-
-.landing-grid {
-    background: white;
-    text-align: center;
-    width: 100%;
-    height: 1500;
-    overflow: auto;
+.draw
+{
+    position: fixed;
 }
-
-.about {
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-.flex-container {
-    display: flex;
-}
-
-.contact-body {
-    margin: auto;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    padding-top: 2em;
-}
-
-.contact-grid {
-    text-align: center;
-    justify-content: center;
-    width: 80%;
-    height: 400px;
-    background: white;
-    color: black;
-    margin-bottom: 20px;
-}
-
-.contact-grid h2 {
-    font-family: "Anton", sans-serif;
-}
-
-.contact-grid p {
-    font-family: "Oxygen", sans-serif;
-    font-weight: bold;
-}
-
-.contact-grid hr {
-    border-top: 5px dotted black;
-    width: 50%;
-    margin: auto;
-}
-
 .contact-list i {
     font-size: 66px;
     padding-right: 5rem;
 }
 
-.our-logo {
-    height: 250px;
-    border-radius: 1em;
-    margin-top: 25;
-}
+
 
 body {
     -webkit-overflow-scrolling: touch;
 }
 
-.banner-text {
-    background-color: blue;
-    opacity: 0.8;
-    width: 75%;
-    border-radius: 10px;
-    margin: 50px auto auto;
+.margin{
+    padding-top: 2% ;
 }
 
-.banner-text h1 {
-    font-size: 66px;
-    font-weight: bold;
-    color: black;
-}
 
-.banner-text hr {
-    border-top: 5px dotted white;
-    width: 50%;
-    margin: auto;
-}
 
-.banner-text p {
-    color: black;
-    font-size: 20px;
-    padding: 1em;
-}
 
-.social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
-}
 
-.social-links i {
-    color: rgb(153, 91, 91);
-    font-size: 4em;
-    padding: 20px;
-}
+ 
