@@ -4,6 +4,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import "./static/footer.css";
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 
 import { Container, Row } from "reactstrap";
 
@@ -17,18 +18,29 @@ class Footer extends Component {
                 <Container>
                     <Row className="foot">
                             <div className="social">
-                                <h4>Connect Us:</h4>
-                                <GitHubIcon />
+                                <h4>Connect With Us:</h4>
+                                <Link target="_blank" to={"//www.github.com/CodeFosterGS"} >
+                                    <GitHubIcon style={{fill:'white'}}/>
+                                </Link>
                                 &nbsp;
-                                <FacebookIcon />
                                 &nbsp;
-                                <TwitterIcon />
+                                <Link target="_blank" to={"//www.facebook.com/CodeFoster/"} >
+                                    <FacebookIcon style={{fill:'0084ff'}}/>
+                                </Link>
                                 &nbsp;
-                                <InstagramIcon />
+                                &nbsp;
+                                <Link target="_blank" to={"//www.twitter.com/thecodefoster/"} >
+                                    <TwitterIcon style={{fill:'55acee'}}/>
+                                </Link>
+                                &nbsp;
+                                &nbsp;
+                                <Link target="_blank" to={"//www.instagram.com/codefoster.club/"} >
+                                    <InstagramIcon style={{fill:'e4405f'}}/>
+                                </Link>
                             </div>
                             <div className="social1">
-                                <h4>Contact:</h4>
-                                <p>codefostergs@gmail.com</p>
+                                <h4 className="he">Contact:</h4>
+                                <a href="mailto:thecodefoster@gmail.com" style={{color:'white'}}>thecodefoster@gmail.com</a>
                             </div>
                         <div className="credits">
                             <span className="copyright">

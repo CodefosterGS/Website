@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Grid, Cell} from "react-mdl";
 import logo from "./static/logo.png";
 import './static/homepage.css';
-class Landing extends Component {
+class HomePage extends Component {
     render() {
         return (
             <div style={{overflow: "hidden"}} className="home" >
@@ -53,4 +53,4 @@ class Landing extends Component {
     }
 }
 
-export default Landing;
+export default HomePage;

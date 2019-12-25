@@ -4,12 +4,13 @@ import {Layout, Header, Navigation, Drawer, Content} from "react-mdl";
 import Routes from "./routes";
 import Footer from './components/footer'
 import {Link} from "react-router-dom";
+import HomePage from "./components/homepage";
 
 class App extends Component {
     render() {
         return (
             <div className="demo-big-content">
-                <Layout fixedHeader fixedTabs>
+                <Layout fixedHeader >
                     <Header transparent
                         className="header-color"
                         title={
