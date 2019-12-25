@@ -8,10 +8,10 @@ class member extends Component {
     }
     render(){
     return (
-        <div className="contact-body">
-            <Grid className="contact-grid">
-                <Cell col={4}>
-                    <h2>{this.props.member.name}</h2>
+       
+            <div className="contact-grid">
+            
+                     <h2>{this.props.member.name}</h2>
                     <img className="logo1"
                          src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
                          alt="avatar"
@@ -32,10 +32,10 @@ class member extends Component {
                            title="Portfolio" itemProp="significantLink">
                             <i class="fa fa-dribbble"/>
                         </a>
-                    </div>
-                </Cell>
-            </Grid>
-        </div>
+                  
+                </div>
+            </div>
+     
     );
     }
 }
