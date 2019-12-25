@@ -1,0 +1,12 @@
+.particle {
+  background-image: url(https://lesilets.com/wp-content/uploads/2018/04/1096907-cool-dark-background-2560x1600-for-tablet-1024x640.jpg);
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+.particle .slides,
+.particle > .dg {
+  display: none;
+}
+/*# sourceMappingURL=logo.css.map */

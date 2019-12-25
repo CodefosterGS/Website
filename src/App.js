@@ -5,6 +5,7 @@ import Routes from "./routes";
 import Footer from './components/footer'
 import {Link} from "react-router-dom";
 import HomePage from "./components/homepage";
+import ParticleLogo from "./components/logo";
 
 class App extends Component {
     render() {
@@ -42,10 +43,10 @@ class App extends Component {
                         </Navigation>
                     </Drawer>
                     <div className="margin">
-
                     </div>
                     <Content >
                         <div className="page-content"/>
+                        <ParticleLogo/>
                         <Routes/>
                     </Content>
                     <Footer />
