@@ -6,12 +6,14 @@ import Events from "./components/events";
 import Team from "./components/team";
 import Blogs from "./components/blogs";
 
+export const base = "/Website/";
+
 const Routes = () => (
   <Switch>
-    <Route exact path="/" component={HomePage} />
-    <Route path="/events" component={Events} />
-    <Route path="/team" component={Team} />
-    <Route path="/blogs" component={Blogs} />
+    <Route exact path={base} component={HomePage} />
+    <Route path={base+"events"} component={Events} />
+    <Route path={base+"team"} component={Team} />
+    <Route path={base+"blogs"} component={Blogs} />
   </Switch>
 );
 
