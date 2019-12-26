@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Header, Drawer, Content } from "react-mdl";
 import Routes from "./routes";
 import Footer from "./components/footer";
 import { Link } from "react-router-dom";
+import Navigations from "./navigation";
 
 class App extends Component {
   render() {
@@ -14,38 +15,44 @@ class App extends Component {
             transparent
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Bible Script",
+                  fontStyle: "italic",
+                  color: "white"
+                }}
+                to="/"
+              >
                 Codefoster
               </Link>
             }
             scroll
           >
-            <Navigation>
-              <Link to="/">Home</Link>
-              <Link to="/events">Events</Link>
-              <Link to="/blogs">Blogs</Link>
-              <Link to="/team">Our Team</Link>
-            </Navigation>
+            <Navigations />
           </Header>
           <Drawer
             className="draw"
             title={
-              <Link style={{ textDecoration: "none", color: "black" }} to="/">
+              <Link
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Bible Script",
+                  fontStyle: "italic",
+                  color: "black"
+                }}
+                to="/"
+              >
                 Codefoster
               </Link>
             }
           >
-            <Navigation>
-              <Link to="/">Home</Link>
-              <Link to="/events">Events</Link>
-              <Link to="/blogs">Blogs</Link>
-              <Link to="/team">Our Team</Link>
-            </Navigation>
+            <Navigations />
           </Drawer>
           <div className="margin"></div>
           <Content>
-            <div className="page-content" />
-            {/* <ParticleLogo/>  */}
+            {/* <div className="page-content" /> */}
+
             <Routes />
           </Content>
           <Footer />

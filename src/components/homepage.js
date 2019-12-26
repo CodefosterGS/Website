@@ -20,42 +20,65 @@ class HomePage extends Component {
         {/* <p>The official coding club of S.G.S.I.T.S</p> */}
         {/* </div> */}
         {/* </Cell> */}
-        {/* </Grid> */} 
+        {/* </Grid> */}
         <div className="text">
           <h1 style={{ textAlign: "center" }}>About Us</h1>
           <div className="item">
             <div className="about">
               <h2>What</h2>
               <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown
+                Codefoster is the official central coding club of SGSITS.
+                CodeFoster is the campus chapter of CodeChef and the only
+                Raspberry Jam of central India.It is also affiliated to
+                CoderDojo.We aim to promote coding by organizing various events
+                for competitive coding and workshops on latest tech along with
+                annual events held during Aayam.
               </p>
             </div>
 
             <div className="about">
-              <h2>When</h2>
+              <h2>Why</h2>
               <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown
+                CodeFoster was founded in 2014 with the aim of increasing coding
+                culture in college and provide a strong peer group to those
+                interested in coding. We have been working since then to improve
+                the logical, coding and problem solving skills.We believe in
+                mutual learning by conducting events to enhance the programming
+                capabilities of students and to make an open and collaborative
+                ecosystems for promotion of Competitive Programming, Development
+                Skills and Open Source Contributions among students.Club members
+                also have meetups where they teach each other latest skills
+                required in the industry.
               </p>
             </div>
 
             <div className="about">
               <h2>How</h2>
               <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown
+                Our journey began with a workshop on “C programming and its
+                nuances”,which itself saw a participation of more than 100
+                students. “De SparX Code” was the first ever inter-college
+                coding competition organized in the college by our club.
               </p>
             </div>
           </div>
+
           {/* </Grid> */}
+
+          <h1 style={{ textAlign: "center" }}>Vision/Mission</h1>
+          <div className="item">
+            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+              We aim to provide a platform which allows students to gain
+              assistance and mentorship to enhance their coding ability. We wish
+              to promote the enthusiasm for coding in the institute and
+              especially amongst freshly admitted undergrads. We believe that
+              every student should have an equal opportunity to learn how to
+              code and develop a passion for it no matter what the branch is.
+            </p>
+          </div>
+          {/* <LoadScript/> */}
         </div>
-        {/* <LoadScript/> */}
       </div>
-      // </div>
     );
   }
 }

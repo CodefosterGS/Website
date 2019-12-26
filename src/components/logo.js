@@ -22,17 +22,17 @@ class ParticleLogo extends Component {
         </div>
         <canvas className="draw" />
         {/* </div> */}
-        <div>
-          <Grid className="landing-grid">
-            <Cell col={12}>
+        {/* <div> */}
+          {/* <Grid className="landing-grid"> */}
+            {/* <Cell col={12}> */}
               {/* <img src={logo} alt="Our Logo" className="our-logo"/> */}
-              <div className="banner-text">
-                <h1>Codefoster</h1>
+              {/* <div className="banner-text"> */}
+                {/* <h1>Codefoster</h1> */}
                 {/* <p>The official coding club of S.G.S.I.T.S</p> */}
-              </div>
-            </Cell>
-          </Grid>
-        </div>
+              {/* </div> */}
+            {/* </Cell> */}
+          {/* </Grid> */}
+        {/* </div> */}
       </div>
     );
   }
