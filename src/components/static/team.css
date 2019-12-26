@@ -1,20 +1,27 @@
-
-@media only screen and (min-width: 601px){
-.cards
-{
-    
-    display:flex;
+@media only screen and (min-width: 601px) {
+  .cards {
+    display: flex;
     flex-wrap: wrap;
-    /* flex:auto; */
-    /* flex-direction: row; */
+  }
 }
-}
-@media only screen and (max-width: 600px){
-    .cards
-{
-    
+@media only screen and (max-width: 600px) {
+  .cards {
     vertical-align: middle;
     justify-content: right;
-}
+  }
 }
 
+.backdrop {
+  justify-content: center;
+  justify-items: center;
+}
+
+.backdrop h1 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  margin-top: 3%;
+  font-family: "Lamar pen";
+}

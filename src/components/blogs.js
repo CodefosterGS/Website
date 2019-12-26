@@ -12,7 +12,7 @@ import {
   CardMenu,
   IconButton
 } from "react-mdl";
-import './static/blogs.css';
+import "./static/blogs.css";
 
 class Blogs extends Component {
   constructor(props) {
@@ -125,7 +125,6 @@ class Blogs extends Component {
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
         </Grid>
-        
       </div>
     );
   }
